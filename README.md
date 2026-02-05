@@ -12,14 +12,14 @@ It is designed to demonstrate **CRUD operations, authentication, role-based acce
 Clone the repository:
 $bash ~~
    >>>git clone <your-repo-url>
-      cd Student-Placement-Module
-      python -m venv .venv
-      .venv\Scripts\activate          # For Windows. "source .venv/bin/activate" for Linux/Mac
-      pip install -r requirements.txt
+   >>>cd Student-Placement-Module
+   >>>python -m venv .venv
+   >>>.venv\Scripts\activate          # For Windows. "source .venv/bin/activate" for Linux/Mac
+   >>>pip install -r requirements.txt
    
    >>>python manage.py migrate
-      python manage.py createsuperuser
-      python manage.py runserver
+   >>>python manage.py createsuperuser
+   >>>python manage.py runserver
 
 ## Known Issues
 
